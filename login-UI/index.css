@@ -1,0 +1,127 @@
+body{
+  margin:0px;
+  padding:0px;
+  background-color: #0d2d8f;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+#main_container{
+  width: 400px;
+  height: 700px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  align-items: center;
+}
+
+.credentials{
+  height: 50px;
+  width: 90%;
+  margin: 12px;
+  border: none;
+  border-radius: 32px;
+  background-color: #f2f2f4;
+  font-size: 24px;
+  padding: 8px 20px;
+  outline: none;
+}
+
+h1{
+  font-size: 48px;
+  color: #5c5c5e;
+  margin: 0px;
+  margin: 40px 0px;
+  font-style: bold;
+}
+
+#rememberme_container{
+  display: flex;
+  width: 100%;
+  margin: 12px;
+  align-items: center;
+}
+
+input[type="checkbox"] {
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+  cursor: pointer;
+  appearance: none; /* Remove default checkbox styling */
+  border: 2px solid #575757; /* Orange border */
+  background-color: white;
+  position: relative;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #f19035; /* Orange fill when checked */
+  border: none;
+}
+
+input[type="checkbox"]:checked::after {
+  content: '';
+  position: absolute;
+  left: 7px;
+  top: 3px;
+  width: 6px;
+  height: 12px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+#rememberme_container label{
+  font-size: 20px;
+  color: #5c5c5e;
+  cursor: pointer;
+}
+
+#login_button{
+  width: 100%;
+  height: 60px;
+  border: none;
+  border-radius: 32px;
+  color: white;
+  font-size: 32px;
+  cursor: pointer;
+  margin-top: 20px;
+  background: linear-gradient(90deg, #f7d9a2 0%, #f17135 100%);
+  transition: all 0.3s ease-in-out;
+}
+
+#forget_password_button{
+  width: 100%;
+  height: 56px;
+  border: none;
+  border-radius: 32px;
+  color: #5c5c5e;
+  font-size: 22px;
+  cursor: pointer;
+  margin-top: 8px;
+  background-color: whITE;
+}
+
+.footer{
+  width: 100%;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  font-size: 24px;
+}
+
+#signup_button{
+  margin-left: 4px;
+  border: none;
+  outline: none;
+  background-color: white;
+  color: #929db0;
+  font-size: 26px;
+}
